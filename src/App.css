@@ -1,0 +1,30 @@
+root {
+--textColor: rgb(65,64,66);
+--btnBgColor: #3287b7;
+}
+
+html {
+  scroll-behavior:smooth;
+}
+
+body {
+  margin:0px;
+  padding:0px;
+  font-size:1em;
+  font-family:"Roboto"
+}
+
+button {
+  outline: none !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+.primaryBtn {
+  background-color: var(--btnBgColor);
+  color: #ffff;
+  border-radius: 2em;
+  padding: 0.5em 1.5em;
+}
