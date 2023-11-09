@@ -13,15 +13,16 @@ export default function PhoneConfirmation() {
       </Link>
       <h1>Enter your phone number</h1>
       <p>
-        By entering your phone number, you are agreeing to our{" "}
+        By entering your phone number, you are agreeing to our
         <span>Terms of Service</span> and <span>Privacy Policy</span>
       </p>
       <Link
         exact
-        to="/code_confirmation"
+        to="/code_confirm"
         className="primaryBtn d-flex align-items-center"
       >
-        Next <img src="/images/next-arrow.png" alt="" />
+        Next &nbsp;
+        <img src="/images/next-arrow.png" style={style.nextButton} alt="" />
       </Link>
       <PhoneInput
         international
