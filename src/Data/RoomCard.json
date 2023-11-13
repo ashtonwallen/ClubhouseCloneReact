@@ -1,0 +1,71 @@
+[
+  {
+    "id": 4,
+    "title": "Deep Focus",
+    "sub_title": "Instrumental tracks to concentrate",
+    "members": [
+      {
+        "first_name": "Mia",
+        "last_name": "Zhang"
+      },
+      {
+        "first_name": "Carlos",
+        "last_name": "Lopez"
+      },
+      {
+        "first_name": "Fatima",
+        "last_name": "Al Mansouri"
+      },
+      {
+        "first_name": "Erik",
+        "last_name": "Müller"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Morning Motivation",
+    "sub_title": "Kickstart your day with a positive vibe",
+    "members": [
+      {
+        "first_name": "Isha",
+        "last_name": "Patel"
+      },
+      {
+        "first_name": "Antoine",
+        "last_name": "Duval"
+      },
+      {
+        "first_name": "Sofia",
+        "last_name": "Cruz"
+      },
+      {
+        "first_name": "Yuto",
+        "last_name": "Nakamura"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Workout Hits",
+    "sub_title": "Pump up the jam with these hits",
+    "members": [
+      {
+        "first_name": "Lara",
+        "last_name": "Ghosh"
+      },
+      {
+        "first_name": "Sam",
+        "last_name": "O'Neill"
+      },
+      {
+        "first_name": "Amina",
+        "last_name": "Khan"
+      },
+      {
+        "first_name": "Tom",
+        "last_name": "Brighton"
+      }
+    ]
+  }
+]

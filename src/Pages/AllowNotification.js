@@ -15,10 +15,10 @@ export default function AllowNotification() {
             <p>Notifications may include alerts, sounds, and icon badges.</p>
           </div>
           <div className={style.actionBtn}>
-            <Link exact to="/home" className="mb-1">
+            <Link exact path="/home" className="mb-1">
               Don't Allow
             </Link>
-            <Link exact to="/home" className="mb-1">
+            <Link exact path="/home" className="mb-1">
               Allow
             </Link>
             <img

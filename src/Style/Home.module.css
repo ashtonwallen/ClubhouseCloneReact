@@ -1,0 +1,8 @@
+.homeContainer {
+    padding-top: 3.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    background-color: #f2f0e4;
+    overflow: auto;
+    height:100%;
+}

@@ -4,7 +4,7 @@ import style from "../Style/PhoneConfirmation.module.css";
 export default function CodeConfirm() {
   return (
     <div className={style.phoneConfirmContainer}>
-      <Link exact to="/" className={style.backBtn}>
+      <Link path="/" className={style.backBtn}>
         <img src="/images/back-arrow.png" alt="Back"></img>
       </Link>
       <div className="text-center">
@@ -33,8 +33,7 @@ export default function CodeConfirm() {
         </p>
       </div>
       <Link
-        exact
-        to="/allow_notification"
+        path="/allow_notification"
         className="primaryBtn d-flex align-items center"
       >
         Next{" "}

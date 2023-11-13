@@ -8,7 +8,7 @@ export default function PhoneConfirmation() {
 
   return (
     <div className={style.phoneConfirmContainer}>
-      <Link exact to="/" className={style.backBtn}>
+      <Link path="/" className={style.backBtn}>
         <img src="/images/back-arrow.png" alt=""></img>
       </Link>
       <h1>Enter your phone number</h1>
@@ -17,8 +17,7 @@ export default function PhoneConfirmation() {
         <span>Terms of Service</span> and <span>Privacy Policy</span>
       </p>
       <Link
-        exact
-        to="/code_confirm"
+        path="/code_confirm"
         className="primaryBtn d-flex align-items-center"
       >
         Next &nbsp;
